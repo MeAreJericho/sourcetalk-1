@@ -26,7 +26,7 @@ public class HelloServlet extends HttpServlet {
                 "<head><meta charset=\"utf-8\"></head>" +
                 "<body>" +
                 "<h1>Hello " + htmlEscape(user) + "!</h1>" +
-                "<p>I am a test application and I run on server '" + InetAddress.getLocalHost().getHostName() + "'</p>" +
+                "<p>I am a test application and I run on server and i am changed '" + InetAddress.getLocalHost().getHostName() + "'</p>" +
                 "<p>My version is: " + new Scanner(getClass().getClassLoader().getResourceAsStream("version.txt"), "UTF-8").next() + "</p>" +
                 "<p>These are my friends:</p>" +
                 "<table>" +
